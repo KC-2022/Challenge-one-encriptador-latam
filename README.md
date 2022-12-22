@@ -54,3 +54,9 @@ gaitober" => "gato"
 - Un botón que copie el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad del ctrl+C o de la opción "copiar" del menú de las aplicaciones.
 
 ---
+
+# Publica tu página en GitHub Pages!
+
+Utiliza lo que aprendiste sobre Git e GitHub  y publica tu página web utilizando el servicio **GitHub Pages**. De esta forma, podrás compartir el resultado de tu proyecto!
+
+Link= 'https://krla2022.github.io/Challenge-one-encriptador-latam/'
