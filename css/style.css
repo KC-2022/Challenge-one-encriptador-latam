@@ -224,7 +224,71 @@ footer p{
 
 }
 
+@media screen and (max-width: 375px){
+    
+    .msj{
+        top: 99px;
+        width: auto;
+        font-size: auto;
+        left: 40px;
+    }
 
+    .box{
+        top: 168px;
+        left: 30px;
+        height: 410px;
+        
+    }
+
+    .botones{
+        flex-direction: inherit;
+        top: 633px;
+        left: 46px;
+        width: 315px;
+        height: 45px;
+    }
+
+    .excla-adv{
+        top: 630px;
+        left: 30px;
+        height: fit-content;
+    }
+
+    .texto{
+        top: 590px;
+        left: 60px;
+        font-size:1.5vh;
+    
+    }
+
+    .excla-adv img{
+        width: 21px;
+        /* bottom: 778px; */
+        left: 32px;
+        top: 593px;
+    }
+    header img{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: -5px;
+        position: absolute;
+        left: 31px;
+        top: 32px;
+    }
+    
+    footer p{
+        
+        text-align: center;
+        left: 1%;
+}
+    }
+
+
+
+
+}
 
 @keyframes animacionBotones{
     0% {
