@@ -1,4 +1,3 @@
-<div align="center"><img src="assets\logo-alura.png" width="200"/></div>
 
 # 🔏 Encriptador de texto
 
