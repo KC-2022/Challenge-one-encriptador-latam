@@ -1,0 +1,245 @@
+body{
+    background: #F3F5FC;
+    font-family: Inter, sans-serif;
+}
+
+
+header img{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    position: absolute;
+    left: 60px;
+    top: 40px;
+
+}
+
+.msj{
+    font-family: 'Inter';
+    position: absolute;
+    background: none;
+    width: 577px;
+    height: 48px;
+    left: 240px;
+    top: 168px;
+    border: none;
+    outline: none;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 150%;
+    color:#0A3871;
+}
+
+.box{
+    position: absolute;
+    width: 300px;
+    height: 530px;
+    top: 40px;
+    right: 40px;
+    bottom: 40px;
+    background: white;
+    border-radius: 32px;
+}
+
+#img-muñeco{
+    position: absolute;
+    width: 65%;
+    top: 120px;
+    left: 17.5%;
+}
+::placeholder{color:#0A3871}
+.advert{
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    top: 300px;
+}
+
+.advert #advert_1{
+    font-size: 20x;
+    line-height: 120%;
+}
+
+.advert #advert_2{
+    font-size: 12px;
+    color: #1a2736;
+
+}
+
+#out{
+    outline: none;
+    border: none;
+    width: 90%;
+    height: 60%;
+    resize: none;
+    background: #ffffff;
+    position: absolute;
+    top: 10%;
+    margin: 16px;
+    font-size: 24px;
+    font-family: 'Inter';
+    color: #0A3871;
+}
+
+#copyTexto{
+    position: absolute;
+    border: none;
+    bottom: 0px;
+    font-size: 18px;
+    font-family: 'Inter';
+    background: #a1a5a5;
+    color: white;
+    width: 100%;
+    height: 50px;
+    border-radius: 0 0 32px 32px;
+}
+
+#copyTexto:hover{
+    background: #01c5b5;
+    color: black;
+    animation: animacionBotones 1s ease 0s 1 normal forwards;
+}
+
+
+
+.botones{
+    display: flex;
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+
+    left: 240px;
+    bottom: 60px;
+}
+
+.excla-adv img{
+    position: absolute;
+    color: #ffffff;
+    width: 25px;
+    bottom: 159px;
+    left: 245px;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.texto{
+    position: absolute;
+    color: #414141; 
+    bottom: 145px;
+    left: 280px;
+    opacity: 0.8;
+}
+
+.buttons{
+    width: 40%;
+    height: 80%;
+    border-radius: 24px;
+    border: 1px solid black;
+}
+
+#botonEncr{
+    background: #0A3871;;
+    color: white;
+    box-shadow: 5px 5px 15px 5px #1a2736;
+}
+
+#botonEncr:hover{
+    background: #059de4;
+    color: black;
+    animation: animacionBotones 1s ease 0s 1 normal forwards;
+}
+
+
+
+#botonDes{
+    background: #D8DFE8;
+    color: #2c2b2b;
+    box-shadow: 5px 5px 15px 5px #1a2736;
+}
+
+#botonDes:hover{
+    background: #a7e4e9;
+    animation: animacionBotones 1s ease 0s 1 normal forwards;
+}
+
+footer p{
+    position: absolute;
+    bottom: 10px;
+    color: #0A3871;
+    font-size: 12px;
+    left: 25%;
+}
+
+
+
+@media (max-width:1230px){
+    
+    .msj{
+        top: 50px;
+    }
+
+    .box{
+        top: 120px;
+        left: 240px;
+        
+    }
+
+    .botones{
+        flex-direction: column;
+        top: 180px;
+        left: 640px;
+        height: 80px;
+    }
+
+    .excla-adv{
+        top: 280px;
+        left: 640px;
+        height: fit-content;
+    }
+
+    .texto{
+        top: 280px;
+        left: 660px;
+        
+    }
+
+}
+
+@keyframes animacionBotones{
+    0% {
+		transform: scale(1);
+	}
+
+	50% {
+		transform: scale(1.1);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+@keyframes botonActivado {
+	0% {
+		opacity: 0.8;
+		transform: scale(0.2);
+	}
+
+	80% {
+		opacity: 0;
+		transform: scale(1.2);
+	}
+
+	100% {
+		opacity: 0;
+		transform: scale(2.2);
+	}
+}
