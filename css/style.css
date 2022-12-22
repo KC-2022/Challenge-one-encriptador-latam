@@ -20,7 +20,7 @@ header img{
     font-family: 'Inter';
     position: absolute;
     background: none;
-    width: 577px;
+    width: 500px;
     height: 48px;
     left: 240px;
     top: 168px;
@@ -189,6 +189,7 @@ footer p{
     .box{
         top: 120px;
         left: 240px;
+        height: 434px;
         
     }
 
@@ -207,11 +208,23 @@ footer p{
 
     .texto{
         top: 280px;
-        left: 660px;
-        
+        left: 680px;
+        font-size:1.5vh;
+    
     }
 
+    .excla-adv img{
+        width: 20px;
+        bottom: 304px;
+        left: 652px;
+        top: 280px;
+    }
+
+
+
 }
+
+
 
 @keyframes animacionBotones{
     0% {
