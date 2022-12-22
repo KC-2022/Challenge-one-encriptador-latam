@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Encriptador de Texto - Alura</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">       
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+ 
+        <link href="css\style.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <header>
+            <img src="assets\logo-alura.png">
+        </header>
+        <main>
+            <input type="text" id="msj" class="msj" placeholder="Ingrese el texto aqui">
+            <div class="box">
+                <textarea name="msj_out" id="out" disabled></textarea>
+                <img src="" id="img-muñeco">
+                <div class="advert">
+                    <P id="advert_1"></P>
+                    <p id="advert_2"></p>
+                </div>
+                <button type="button" id="copyTexto">Copiar</button>
+            </div>
+            <p class="excla-adv"><img src="assets\Vector@2x.png" alt=""></p>
+            <p class="texto">Solo letras minusculas y sin acentos</p>
+            <div class="botones"> 
+                <button class="buttons" id="botonEncr">Encriptar</button>
+                <button class="buttons" id="botonDes">Desencriptar</button>
+            </div>
+        </main>
+
+        <footer>
+
+            <p>&copy;Copyright Contreras Carla | Desafio Alura latam - Oracle Next Education</p>
+
+        </footer>
+
+        <script src="js\encriptador.js"></script>
+
+    </body>
+</html>
